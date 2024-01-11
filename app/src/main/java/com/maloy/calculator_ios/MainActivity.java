@@ -39,7 +39,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         assignId(buttonMultiply, R.id.button_multiply);
         assignId(buttonPlus, R.id.button_plus);
         assignId(buttonMinus, R.id.button_minus);
-        assignId(buttonEquals, R.id.button_equals);
         assignId(button0, R.id.button_0);
         assignId(button1, R.id.button_1);
         assignId(button2, R.id.button_2);

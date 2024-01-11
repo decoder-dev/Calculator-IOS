@@ -34,15 +34,6 @@
         android:textColor="@color/white"
         android:textSize="64sp" />
 
-    <ImageButton
-        android:id="@+id/settingsButton"
-        android:layout_width="90dp"
-        android:background="@color/monetblack"
-        android:layout_height="90dp"
-        android:scaleType="fitXY"
-        android:onClick="buttonClicked"
-        android:src="@drawable/about" />
-
 
     <LinearLayout
         android:id="@+id/buttons_layout"
@@ -319,16 +310,15 @@
                 app:backgroundTint="@color/black"
                 app:cornerRadius="36dp" />
 
-            <com.google.android.material.button.MaterialButton
-                android:id="@+id/button_equals"
-                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
+            <ImageButton
+                android:id="@+id/settingsButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
-                android:backgroundTint="#FF9800"
-                android:text="="
-                android:textColor="@color/white"
-                android:textSize="32sp"
+                android:backgroundTint="#F44336"
+                android:onClick="buttonClicked"
+                android:src="@drawable/about"
+                android:shape="oval"
                 app:cornerRadius="36dp" />
 
         </LinearLayout>

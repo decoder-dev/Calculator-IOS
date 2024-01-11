@@ -310,16 +310,20 @@
                 app:backgroundTint="@color/black"
                 app:cornerRadius="36dp" />
 
-            <ImageButton
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/settingsButton"
+                style="@style/Widget.MaterialComponents.ExtendedFloatingActionButton"
                 android:layout_width="72dp"
                 android:layout_height="72dp"
                 android:layout_margin="12dp"
                 android:backgroundTint="#F44336"
                 android:onClick="buttonClicked"
-                android:src="@drawable/about"
-                android:shape="oval"
+                android:text="I"
+                android:textColor="@color/white"
+                app:backgroundTint="@color/black"
+                android:textSize="32sp"
                 app:cornerRadius="36dp" />
+
 
         </LinearLayout>
 
